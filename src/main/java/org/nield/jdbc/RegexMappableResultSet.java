@@ -1,5 +1,4 @@
-﻿package org.nield.jdbc;
-
+package org.nield.jdbc;
 
 import java.io.InputStream;
 import java.io.Reader;

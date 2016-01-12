@@ -8,7 +8,6 @@ import java.sql.*;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
-import com.github.davidmoten.rx.jdbc.RegexMappableResultSet.ColumnMatchNotFoundException;
 
 public final class NullIfNotMatchedResultSet implements ResultSet {
 
