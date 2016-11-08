@@ -50,7 +50,7 @@ public final class RegexMappableResultSet implements ResultSet {
                     cachedIndices.put(columnRegex, foundIndex);
                 }
             if (foundIndex.equals(-1)) {
-                throw new ColumnMatchNotFoundException("Column for pattern ".concat(columnRegex).concat(" not found"));
+                throw new ColumnMatchNotFoundException(new SQLException("Column for pattern ".concat(columnRegex).concat(" not found")));
             }
             return foundIndex + 1;
     }
